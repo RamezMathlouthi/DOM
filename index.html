@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boutique En Ligne</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>BOUTIQUE EN LIGNE (nom)</h1>
+            <h2>Tout ce dont vous avez besoin pour bien s'habiller</h2>
+        </div>
+    </header>
+    <br><br>
+    <main>
+        <div class="card" style="width: 20rem">
+            <div>
+                <img class="card-img-top" src="https://wildlysmitten.com/content/images/size/w1200/2022/06/travis-scott-air-jordan-1-low-reverse-mocha.jpg" alt="Card image cap" />
+                <div class="card-body">
+                    <h5 class="card-title">Sneakers</h5>
+                    <h6>Nike Travis Scott</h6>
+                    <a href="#" class="btn btn-primary">  Supprimer  </a>
+                </div>
+            </div>
+            <div style="display: flex; flex-direction: column ;margin-left:80px" ;>
+                <div style="display: flex">
+                    <button type="button" class="btn btn-danger minus" style="height: 50px;width:70px;">-</button>
+                    <h1 class="x" style="width:30px">0</h1>
+                    <button type="button" class="btn btn-success plus" style="height: 50px;width: 70px;">+</button>
+                </div>
+                <hr />
+                <div style="align-items: center;">
+                    <span>price</span>
+                    <span class="price">120</span>
+                    <span>$</span>
+                </div>
+            </div>
+        </div>
+        <div class="card" style="width: 20rem">
+            <div>
+                <img class="card-img-top" src="https://tn.jumia.is/unsafe/fit-in/680x680/filters:fill(white)/product/88/6024/1.jpg" alt="Card image cap" />
+                <div class="card-body">
+                    <h5 class="card-title">pantalon</h5>
+                    <a href="#" class="btn btn-primary"> Supprimer </a>
+                </div>
+            </div>
+            <div style="display: flex; flex-direction: column; margin-left:80px" ;>
+                <div style="display: flex">
+                    <button type="button" class="btn btn-danger minus" style="height: 50px;width:70px;">-</button>
+                    <h1 class="x">0</h1>
+                    <button type="button" class="btn btn-success plus" style="height: 50px;width:70px;">+</button>
+                </div>
+                <hr />
+                <div style="align-items: center;">
+                    <span>price</span>
+                    <span class="price">45</span>
+                    <span>$</span>
+                </div>
+            </div>
+        </div>
+        <div class="card" style="width: 20rem">
+            <div>
+                <img class="card-img-top" src="https://photos6.spartoo.com/photos/176/17678446/17678446_1200_B.jpg" alt="Card image cap" />
+                <div class="card-body">
+                    <h5 class="card-title">pullover</h5>
+                    <a href="#" class="btn btn-primary"> Supprimer </a>
+                </div>
+            </div>
+            <div style="display: flex; flex-direction: column ; margin-left:80px" ;>
+                <div style="display: flex">
+                    <button type="button" class="btn btn-danger minus" style="height: 50px;width:70px;">-</button>
+                    <h1 class="x">0</h1>
+                    <button type="button" class="btn btn-success plus" style="height: 50px;width:70px;">+</button>
+                </div>
+                <hr />
+                <div style="align-items: center;text-align: center;">
+                    <span>price</span>
+                    <span class="price">10</span>
+                    <span>$</span>
+                </div>
+            </div>
+        </div>
+    </main>
+    <hr class="sum-line" />
+    <div style="display: flex;align-items: center;flex-direction: row;justify-content: center;">
+        <h3 style="color: antiquewhite;">somme:</h3>
+        <h4 style="margin-left:105px;color: antiquewhite;" id="sum">0</h4>
+        <p style="color: antiquewhite;">$</p>
+    </div>
+    <script src="index.js"></script>
+
+</body>
+
+</html>
